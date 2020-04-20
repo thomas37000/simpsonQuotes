@@ -23,7 +23,7 @@ class QuotesCard extends React.Component {
     render() {
         return (
             <>
-                <h1 className="title">Simpsons Quotes !!!</h1>
+                <h1 className="title">Simpsons Quotes in React !!!</h1>
                 <button type="button"id="btn" onClick={this.getSimpson}>
                         Select a new quote Simspon</button>
 
