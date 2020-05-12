@@ -1,0 +1,46 @@
+h2 {
+  background-color: beige;
+}
+
+form {
+  margin: 0 auto;
+  /*width: 600px;*/
+  color: #fff;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.FormEmployee {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.FormEmployee h1 {
+  text-align: center;
+}
+
+.FormEmployee .formData {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.FormEmployee .formData label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.FormEmployee .formData input:not([type="submit"]) {
+  flex-grow: 1;
+}
+
+.textarea {
+  margin: 0 auto;
+  width: 400px;
+}
